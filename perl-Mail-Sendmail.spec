@@ -1,3 +1,8 @@
+#
+# Conditional build:
+%bcond_with	tests	# do not perform "make test"
+			# need network connection
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Sendmail
@@ -6,7 +11,7 @@ Summary(pl):	Modu³ perla Mail::Sendmail
 Name:		perl-Mail-Sendmail
 Version:	0.79
 Release:	2
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	038f261afd091d8fad347d6c66d2833d
@@ -34,6 +39,8 @@ poczty.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
+
+%{?with_tests:%{__make} test}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
