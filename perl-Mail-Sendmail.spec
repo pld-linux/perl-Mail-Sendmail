@@ -4,8 +4,8 @@
 			# need network connection
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Mail
-%define	pnam	Sendmail
+%define		pdir	Mail
+%define		pnam	Sendmail
 Summary:	Mail::Sendmail perl module
 Summary(pl):	Modu³ perla Mail::Sendmail
 Name:		perl-Mail-Sendmail
