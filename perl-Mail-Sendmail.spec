@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Sendmail
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail-Sendmail perl module
 Summary(pl):	Modu³ perla Mail-Sendmail
 Name:		perl-Mail-Sendmail
 Version:	0.78
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Mail-Sendmail to prosty, niezale¿ny od platformy modu³ do wysy³ania
 poczty.
 
 %prep
-%setup -q -n Mail-Sendmail-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
