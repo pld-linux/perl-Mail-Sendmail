@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Mail-Sendmail
 Name:		perl-Mail-Sendmail
 Version:	0.77
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/Mail-Sendmail-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/Mail-Sendmail-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -18,7 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Mail-Sendmail is a simple platform independent mailer.
 
 %description -l pl
-Mail-Sendmail to prosty, niezale¿ny od platformy modu³ do wysy³ania poczty.
+Mail-Sendmail to prosty, niezale¿ny od platformy modu³ do wysy³ania
+poczty.
 
 %prep
 %setup -q -n Mail-Sendmail-%{version}
