@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Mail
 %define	pnam	Sendmail
-Summary:	Mail-Sendmail perl module
-Summary(pl):	Modu³ perla Mail-Sendmail
+Summary:	Mail::Sendmail perl module
+Summary(pl):	Modu³ perla Mail::Sendmail
 Name:		perl-Mail-Sendmail
 Version:	0.78
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Mail-Sendmail is a simple platform independent mailer.
+Mail::Sendmail is a simple platform independent mailer.
 
 %description -l pl
-Mail-Sendmail to prosty, niezale¿ny od platformy modu³ do wysy³ania
+Mail::Sendmail to prosty, niezale¿ny od platformy modu³ do wysy³ania
 poczty.
 
 %prep
