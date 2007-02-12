@@ -7,7 +7,7 @@
 %define		pdir	Mail
 %define		pnam	Sendmail
 Summary:	Mail::Sendmail perl module
-Summary(pl):	Modu≥ perla Mail::Sendmail
+Summary(pl.UTF-8):   Modu≈Ç perla Mail::Sendmail
 Name:		perl-Mail-Sendmail
 Version:	0.79
 Release:	2
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Mail::Sendmail is a simple platform independent mailer.
 
-%description -l pl
-Mail::Sendmail to prosty, niezaleøny od platformy modu≥ do wysy≥ania
+%description -l pl.UTF-8
+Mail::Sendmail to prosty, niezale≈ºny od platformy modu≈Ç do wysy≈Çania
 poczty.
 
 %prep
