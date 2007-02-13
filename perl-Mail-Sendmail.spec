@@ -7,7 +7,7 @@
 %define		pdir	Mail
 %define		pnam	Sendmail
 Summary:	Mail::Sendmail perl module
-Summary(pl.UTF-8):   Moduł perla Mail::Sendmail
+Summary(pl.UTF-8):	Moduł perla Mail::Sendmail
 Name:		perl-Mail-Sendmail
 Version:	0.79
 Release:	2
