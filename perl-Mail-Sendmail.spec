@@ -9,12 +9,12 @@
 Summary:	Mail::Sendmail perl module
 Summary(pl.UTF-8):	Moduł perla Mail::Sendmail
 Name:		perl-Mail-Sendmail
-Version:	0.79
-Release:	3
+Version:	0.80
+Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	038f261afd091d8fad347d6c66d2833d
+# Source0-md5:	be1d23ebc2edc744ab2457f2086b4e2b
 URL:		http://search.cpan.org/dist/Mail-Sendmail/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
