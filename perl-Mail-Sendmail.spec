@@ -5,7 +5,6 @@
 
 %define		pdir	Mail
 %define		pnam	Sendmail
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::Sendmail perl module
 Summary(pl.UTF-8):	Moduł perla Mail::Sendmail
 Name:		perl-Mail-Sendmail
